@@ -1,68 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dalil-X | AI-Optimized Business Directory in Jordan</title>
-    <meta name="description" content="Get your local Jordanian business discovered by AI assistants like ChatGPT. dalilx is a trusted, SEO-friendly directory for fashion, food, services, and more.">
+    <title>Dalil-X | Jordan's AI-Optimized Business Directory for Amman Businesses</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <meta name="description" content="Dalil-X helps Jordanian businesses appear in AI-powered search results. Get featured in Google's AI Overviews and Bing Chat when customers search for services in Amman.">
     <meta name="robots" content="index, follow">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://dalilx.com">
 
-    <!-- JSON-LD Structured Data for AI & SEO -->
+    <!-- Proper JSON-LD with no extra spaces -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "dalilx",
+      "name": "Dalil-X",
       "url": "https://dalilx.com",
-      "description": "An AI-optimized business directory helping local Jordanian businesses get discovered by search engines, chatbots, and AI assistants like ChatGPT.",
+      "description": "Jordan's AI-optimized business directory helping Amman businesses appear in AI-powered search results like Google's AI Overviews and Bing Chat.",
       "publisher": {
         "@type": "Organization",
-        "name": "dalilx",
-        "logo": "https://dalilx.com/images/logo.png",
+        "name": "Dalil-X",
+        "logo": "https://dalilx.com/img/favicon.ico",
         "url": "https://dalilx.com"
       },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://dalilx.com/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      },
-      "mainEntity": {
-        "@type": "ItemList",
-        "name": "Local Businesses in Jordan",
-        "description": "A curated list of verified local businesses across Amman and Jordan.",
-        "url": "https://dalilx.com/business-directory",
-        "numberOfItems": "100",
-        "itemListOrder": "https://schema.org/ItemListOrderAscending"
-      }
     }
     </script>
 
-    <!-- Organization Schema (for brand trust) -->
+    <!-- Organization Schema (fixed) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "dalilx",
+      "name": "Dalil-X",
       "url": "https://dalilx.com",
       "logo": "https://dalilx.com/images/logo.png",
       "sameAs": [
         "https://www.facebook.com/dalilx",
         "https://www.instagram.com/dalilx"
       ],
-      "description": "Jordan's first AI-optimized business directory, empowering local businesses to be found by ChatGPT, Google, and other AI systems.",
+      "description": "Jordan's AI-optimized business directory, helping local businesses appear in Google AI Overviews and Bing Chat.",
       "foundingDate": "2024",
-      "founders": [
-        {
-          "@type": "Person",
-          "name": "Founder Name"
-        }
-      ],
       "address": {
         "@type": "PostalAddress",
-        "addressCountry": "Jordan"
+        "addressCountry": "JO"
+      }
+    }
+    </script>
+    
+    <!-- CRITICAL ADDITION: FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How can my Amman business appear in AI search results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your Amman business can appear in AI search results through proper SEO optimization with a focus on structured data. We help Jordanian businesses appear in features like Google's AI Overviews and Bing Chat when customers search for services in Amman."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will ChatGPT directly cite my business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Base ChatGPT cannot directly cite your business unless it's in its training data. We focus on optimizing visibility in AI-powered search features like Google's AI Overviews and Bing Chat that pull from current search results."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- CRITICAL ADDITION: LocalBusiness context for Jordan -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Dalil-X",
+      "description": "Jordan's AI-optimized business directory helping Amman businesses appear in AI-powered search results.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Amman",
+        "addressRegion": "DC",
+        "addressCountry": "JO"
       }
     }
     </script>
@@ -86,42 +111,147 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <h1 id="hero-title" class="main-heading">
-                        Get your business mentioned by 
-                        <span class="animated-text" id="animatedText">ChatGPT</span>
+                        Get your Amman business featured in
+                        <span class="animated-text" id="animatedText">Google AI Overviews</span>
                     </h1>
-                    <p class="visually-hidden">
-                        dalilx helps local Jordanian businesses appear in AI-generated answers and search results through structured data and SEO optimization.
+                    <p class="lead">
+                        We help Jordanian businesses appear in AI-powered search results - when customers search for "Best [Your business or service] in Jordan", get featured in Google's AI Overviews and Bing Chat.
                     </p>
+                    <div class="mt-4">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Compliant with Google's guidelines (no cloaking)</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Optimized for both Arabic and English queries</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Measurable results with before/after tracking</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <div class="glass-square mx-auto" aria-hidden="true"></div>
+                    <div class="glass-square mx-auto" aria-hidden="true">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Buttons Section -->
-    <section class="py-5" aria-labelledby="actions-title">
+    <!-- How It Works Section -->
+    <section class="py-5 bg-light" aria-labelledby="how-it-works">
+        <div class="container">
+            <h2 id="how-it-works" class="text-center h3 mb-5">How We Help Jordanian Businesses Get Found</h2>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <div class="icon-circle mb-3">
+                            <i class="fas fa-search fa-2x"></i>
+                        </div>
+                        <h3 class="h5">Research Local Search Queries</h3>
+                        <p>We identify the exact questions Jordanians ask in Arabic and English when searching for businesses like yours in Amman.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <div class="icon-circle mb-3">
+                            <i class="fas fa-code fa-2x"></i>
+                        </div>
+                        <h3 class="h5">Optimize With Structured Data</h3>
+                        <p>We implement proper Schema.org markup that Google and Bing use in their AI-powered search features - fully compliant with guidelines.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <div class="icon-circle mb-3">
+                            <i class="fas fa-chart-line fa-2x"></i>
+                        </div>
+                        <h3 class="h5">Track Measurable Results</h3>
+                        <p>We provide proof of appearance in Google AI Overviews and Bing Chat, with before/after comparisons and traffic metrics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visible FAQ Section - Critical for AI Visibility -->
+    <section class="py-5" aria-labelledby="faq-heading">
+        <div class="container">
+            <h2 id="faq-heading" class="text-center h3 mb-5">Frequently Asked Questions</h2>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="faq-item mb-4">
+                        <h3 class="h5">How can my Amman business appear in AI search results?</h3>
+                        <p>Your business can appear in AI search results through proper optimization of your online presence. We focus on implementing structured data (Schema.org markup) that Google uses in its AI Overviews and Bing uses in Copilot. When Jordanians search for  "best [Your business or service] in Amman", properly optimized businesses are more likely to be featured in these AI-powered responses.</p>
+                    </div>
+                    
+                    <div class="faq-item mb-4">
+                        <h3 class="h5">Will ChatGPT directly cite my business?</h3>
+                        <p>Base ChatGPT (the standard model without web search) cannot directly cite your business unless it was included in its training data (which has a cutoff date). However, when ChatGPT uses "Browse with Bing" or when customers use Google's AI Overviews or Bing Chat, these features pull from current search results - which is where our optimization makes your business visible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Section -->
+    <section class="py-5" aria-labelledby="cta-title">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-auto me-3">
-                    <a class="btn btn-explore" href="directory">
-                        Explore Businesses
-                    </a>
+                <div class="col-lg-8 text-center">
+                    <h2 id="cta-title" class="h3 mb-4">Ready to Get Your Amman Business Featured in AI Search Results?</h2>
+                    <p class="lead mb-4">Join our proof-of-concept program with 3 months of optimization and measurable results tracking - only 10 spots available for Jordanian businesses.</p>
+                    <a class="btn btn-explore px-5" href="/directory">Explore businesses today</a>
+                    <p class="text-muted mt-3 small">* Results based on proper implementation of SEO best practices and structured data that comply with Google's guidelines</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer text-center" role="contentinfo">
+    <footer class="footer text-center py-4" role="contentinfo">
         <div class="container">
-            <p class="mb-0">© 2024 Dalil-X. All rights reserved.</p>
+            <p class="mb-2">© 2025 Dalil-X. Helping Jordanian businesses appear in AI-powered search results.</p>
+            <p class="text-muted small">We optimize for Google AI Overviews, Bing Chat, and other AI search features - fully compliant with search engine guidelines</p>
         </div>
     </footer>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        // Simple animation for the AI feature names
+        document.addEventListener('DOMContentLoaded', function() {
+            const aiFeatures = [
+                'Google AI Overviews',
+                'Bing Chat',
+                'Perplexity Answers',
+                'Gemini Search'
+            ];
+            let currentIndex = 0;
+            const animatedText = document.getElementById('animatedText');
+            
+            function animateText() {
+                animatedText.style.opacity = 0;
+                setTimeout(() => {
+                    currentIndex = (currentIndex + 1) % aiFeatures.length;
+                    animatedText.textContent = aiFeatures[currentIndex];
+                    animatedText.style.opacity = 1;
+                }, 500);
+            }
+            
+            // Initial setup
+            animatedText.textContent = aiFeatures[currentIndex];
+            animatedText.style.opacity = 1;
+            
+            // Start animation
+            setInterval(animateText, 3000);
+        });
+    </script>
 </body>
 </html>
