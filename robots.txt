@@ -34,6 +34,9 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+User-agent: Bingbot
+Allow: /
+
 # Standard rules for search engines and other crawlers
 User-agent: *
 Allow: /
