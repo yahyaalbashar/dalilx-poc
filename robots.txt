@@ -1,0 +1,47 @@
+# robots.txt for dalilx Business Directory
+# Allows major AI crawlers to access your content for training purposes
+
+# OpenAI Crawlers
+# GPTBot - Used for training AI models
+User-agent: GPTBot
+Allow: /
+
+# OAI-SearchBot - Used for ChatGPT's search features
+User-agent: OAI-SearchBot
+Allow: /
+
+# ChatGPT-User - Used for user actions in ChatGPT and Custom GPTs
+User-agent: ChatGPT-User
+Allow: /
+
+# DeepSeek
+User-agent: DeepSeekBot
+Allow: /
+
+# Google (Gemini and other AI models)
+User-agent: Googlebot
+Allow: /
+
+# Google's extended crawler for AI training
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic (Claude)
+User-agent: anthropic-ai
+Allow: /
+
+# Common Crawl (used by many AI services)
+User-agent: CCBot
+Allow: /
+
+# Standard rules for search engines and other crawlers
+User-agent: *
+Allow: /
+Disallow: /js/
+Disallow: /css/
+Disallow: /private/
+Disallow: /admin/
+Disallow: /temp/
+
+# Sitemap reference
+Sitemap: https://dalilx.com/sitemap.xml

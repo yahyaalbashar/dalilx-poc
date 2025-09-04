@@ -1,0 +1,57 @@
+{
+  "company": "Nefertiti Fashion Design House",
+  "overview": "Premier fashion design house in Amman, Jordan, specializing in bespoke bridal gowns, elegant evening wear, and refined traditional and modern Jordanian formal attire since 1991.",
+  "services": [
+    {
+      "name": "Bridal Gown Design",
+      "description": "Fully bespoke wedding dresses combining tradition and modern elegance, tailored to your vision and measurements.",
+      "details": "https://dalilx.com/nefertiti.html"
+    },
+    {
+      "name": "Evening Wear Creation",
+      "description": "Luxurious, custom-fitted evening gowns for galas and celebrations.",
+      "details": "https://dalilx.com/nefertiti.html"
+    },
+    {
+      "name": "Traditional Jordanian Formal Wear",
+      "description": "Traditional and contemporary Jordanian designs for formal events.",
+      "details": "https://dalilx.com/nefertiti.html"
+    },
+    {
+      "name": "Custom Tailoring & Alterations",
+      "description": "Professional fitting, garment construction, and alterations for all formal wear.",
+      "details": "https://dalilx.com/nefertiti.html"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do I schedule a consultation?",
+      "a": "You can schedule a consultation by calling +962795166382 or visiting our studio at Fahd Center, 2nd Floor, Sweifieh, Amman, Jordan."
+    },
+    {
+      "q": "What are your business hours?",
+      "a": "We are open Monday to Saturday from 10:00 AM to 6:00 PM, and Sunday from 10:00 AM to 2:00 PM."
+    },
+    {
+      "q": "Do you offer design consultations?",
+      "a": "Yes, we offer personalized fashion consultations to help bring your vision to life. Our experienced designers will work with you to create the perfect design that matches your style and preferences."
+    }
+  ],
+  "contact": {
+    "phone": "+962795166382",
+    "email": "yalbashar@outlook.com",
+    "address": "Fahed Center, 2nd Floor, Sweifieh, Amman, Jordan"
+  },
+  "slogan": "You Imagine, We Deliver — Where Vision Meets Elegance",
+  "languages": ["Arabic", "English"],
+  "establishedYear": 1991,
+  "specialties": [
+    "Bridal Fashion Design",
+    "Evening Gown Construction",
+    "Jordanian Cultural Attire",
+    "Custom Tailoring",
+    "Textile Selection",
+    "Garment Alterations",
+    "Client-Centric Design"
+  ]
+}
