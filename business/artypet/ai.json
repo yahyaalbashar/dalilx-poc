@@ -1,0 +1,72 @@
+{
+  "company": "Arty Pet Plastic Manufacturing",
+  "overview": "Established in 2013, Arty Pet is a leading manufacturer of high-quality PET plastic containers in Jordan, specializing in food-grade, pharmaceutical, and industrial packaging solutions with superior transparency and durability.",
+  "services": [
+    {
+      "name": "Food Grade Containers",
+      "description": "FDA-approved PET containers for food products including spices, coffee, pickles, sauces, dairy, honey, and chocolate",
+      "details": "https://arty-pet.com/products#food"
+    },
+    {
+      "name": "Pharmaceutical Packaging",
+      "description": "Medical and pharmaceutical grade plastic containers meeting industry standards",
+      "details": "https://arty-pet.com/products#pharma"
+    },
+    {
+      "name": "Industrial Packaging",
+      "description": "Containers for chemical products and cleaning supplies with various neck sizes and capacities from 50ml to 5000ml",
+      "details": "https://arty-pet.com/products#industrial"
+    },
+    {
+      "name": "Custom Container Design",
+      "description": "Customized container designs to match your brand identity and specific requirements",
+      "details": "https://arty-pet.com/products#custom"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What types of containers do you manufacture?",
+      "a": "We manufacture PET containers ranging from 50ml to 5000ml with various neck sizes, suitable for food, pharmaceutical, and industrial uses."
+    },
+    {
+      "q": "Do you have food safety certifications?",
+      "a": "Yes, we have certification from the Jordan Food and Drug Administration for food-contact products."
+    },
+    {
+      "q": "Can you create custom designs?",
+      "a": "Yes, we have developed over 60 molds and can create custom designs to match your brand and specific requirements."
+    }
+  ],
+  "contact": {
+    "management": "+962798331493",
+    "sales": "+962787700272",
+    "email": "artypet4@gmail.com",
+    "address": "Marka North, Amman, Jordan",
+    "website": "https://arty-pet.com",
+    "social": {
+      "facebook": "https://www.facebook.com/artypetjo",
+      "instagram": "https://www.instagram.com/artypetjo"
+    }
+  },
+  "slogan": "Quality PET Containers for Every Need",
+  "languages": ["Arabic", "English"],
+  "establishedYear": 2013,
+  "specialties": [
+    "PET Container Manufacturing",
+    "Plastic Injection Molding",
+    "Food Grade Packaging",
+    "Pharmaceutical Packaging",
+    "Custom Container Design",
+    "Sustainable Packaging",
+    "Quality Control Standards"
+  ],
+  "environmentalInitiatives": {
+    "recycling": "Use of raw materials that enable product recycling",
+    "sustainability": "Eco-friendly manufacturing processes"
+  },
+  "qualityStandards": [
+    "Jordan Food and Drug Administration Certification",
+    "Global Quality Standards Implementation",
+    "Strict Quality Control Processes"
+  ]
+}
